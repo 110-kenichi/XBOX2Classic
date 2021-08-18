@@ -1,0 +1,10 @@
+syntax: glob
+Gma.UserActivityMonitor/bin/Debug/
+Gma.UserActivityMonitor/Gma.UserActivityMonitor.csproj.user
+Gma.UserActivityMonitor/obj/
+XBOX1ChatPadFullKey/bin/
+XBOX1ChatPadFullKey/obj/
+Gma.UserActivityMonitor/bin/
+.vs/XBOX1ChatPadFullKey/v14/
+XInputInterface/Temp/Debug/
+XInputInterface/Temp/Release/
