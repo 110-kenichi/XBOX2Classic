@@ -152,13 +152,50 @@ namespace Zanac.XBOX2Classic
 
         private int rapidFire;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void timerRapid_Tick(object sender, EventArgs e)
+        {
+            rapidFire = rapidFire ^ 1;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="val"></param>
+        /// <param name="row"></param>
+        private uint processPseudoAnalog(float val, int row)
+        {
+            var cb = (CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5);
+            if (cb.Tag == null)
+                cb.Tag = 0f;
+
+            float lval = (float)cb.Tag;
+
+            lval += Math.Abs(val);
+
+            uint bstat = 0;
+
+            if (lval > 1.0f)
+            {
+                bstat = processButton(row);
+                lval -= 1.0f;
+            }
+
+            cb.Tag = lval;
+
+            return bstat;
+        }
+
         private void timerController_Tick(object sender, EventArgs e)
         {
-                var stat = GamePad.GetState((PlayerIndex)((int)numericUpDownCtrlId.Value));
+            var stat = GamePad.GetState((PlayerIndex)((int)numericUpDownCtrlId.Value));
             //if (stat.PacketNumber != lastGamePadState.PacketNumber)
             //{
             //cnt = 0;
-            rapidFire = rapidFire ^ 1;
 
             //processGuideButton(stat);
             uint bstat = 0;
@@ -175,21 +212,53 @@ namespace Zanac.XBOX2Classic
                 bstat |= processButton(3);
             if ((bs & ButtonStates.DPadDown) == ButtonStates.DPadDown)
                 bstat |= processButton(4);
-            if (stat.ThumbSticks.Left.Y > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5)).Checked && stat.ThumbSticks.Left.Y > 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Left.Y, 5);
+            }
+            else if (stat.ThumbSticks.Left.Y > 0.5)
                 bstat |= processButton(5);
-            if (stat.ThumbSticks.Left.X < -0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 6)).Checked && stat.ThumbSticks.Left.X < 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Left.X, 6);
+            }
+            else if (stat.ThumbSticks.Left.X < -0.5)
                 bstat |= processButton(6);
-            if (stat.ThumbSticks.Left.X > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 7)).Checked && stat.ThumbSticks.Left.X > 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Left.X, 7);
+            }
+            else if (stat.ThumbSticks.Left.X > 0.5)
                 bstat |= processButton(7);
-            if (stat.ThumbSticks.Left.Y < -0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 8)).Checked && stat.ThumbSticks.Left.Y < 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Left.Y, 8);
+            }
+            else if (stat.ThumbSticks.Left.Y < -0.5)
                 bstat |= processButton(8);
-            if (stat.ThumbSticks.Right.Y > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 9)).Checked && stat.ThumbSticks.Right.Y > 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Right.Y, 9);
+            }
+            else if (stat.ThumbSticks.Right.Y > 0.5)
                 bstat |= processButton(9);
-            if (stat.ThumbSticks.Right.X < -0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 10)).Checked && stat.ThumbSticks.Right.X < 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Right.X, 10);
+            }
+            else if (stat.ThumbSticks.Right.X < -0.5)
                 bstat |= processButton(10);
-            if (stat.ThumbSticks.Right.X > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5)).Checked && stat.ThumbSticks.Right.X > 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Right.X, 11);
+            }
+            else if (stat.ThumbSticks.Right.X > 0.5)
                 bstat |= processButton(11);
-            if (stat.ThumbSticks.Right.Y < -0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5)).Checked && stat.ThumbSticks.Right.Y < 0)
+            {
+                bstat |= processPseudoAnalog(stat.ThumbSticks.Right.Y, 12);
+            }
+            else if (stat.ThumbSticks.Right.Y < -0.5)
                 bstat |= processButton(12);
             if ((bs & ButtonStates.Y) == ButtonStates.Y)
                 bstat |= processButton(13);
@@ -199,11 +268,19 @@ namespace Zanac.XBOX2Classic
                 bstat |= processButton(15);
             if ((bs & ButtonStates.A) == ButtonStates.A)
                 bstat |= processButton(16);
-            if (stat.Triggers.Left > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5)).Checked)
+            {
+                bstat |= processPseudoAnalog(stat.Triggers.Left, 17);
+            }
+            else if (stat.Triggers.Left > 0.5)
                 bstat |= processButton(17);
             if ((bs & ButtonStates.LeftShoulder) == ButtonStates.LeftShoulder)
                 bstat |= processButton(18);
-            if (stat.Triggers.Right > 0.5)
+            if (((CheckBox)tableLayoutPanelCheck.GetControlFromPosition(9, 5)).Checked)
+            {
+                bstat |= processPseudoAnalog(stat.Triggers.Right, 19);
+            }
+            else if (stat.Triggers.Right > 0.5)
                 bstat |= processButton(19);
             if ((bs & ButtonStates.RightShoulder) == ButtonStates.RightShoulder)
                 bstat |= processButton(20);
@@ -252,5 +329,6 @@ namespace Zanac.XBOX2Classic
         {
             timerRapid.Interval = (int)numericUpDownFireRate.Value;
         }
+
     }
 }

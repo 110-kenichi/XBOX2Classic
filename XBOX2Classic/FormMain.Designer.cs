@@ -245,6 +245,17 @@ namespace Zanac.XBOX2Classic
             this.label5 = new System.Windows.Forms.Label();
             this.timerRapid = new System.Windows.Forms.Timer(this.components);
             this.timerPole = new System.Windows.Forms.Timer(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkBox177 = new System.Windows.Forms.CheckBox();
+            this.checkBox178 = new System.Windows.Forms.CheckBox();
+            this.checkBox179 = new System.Windows.Forms.CheckBox();
+            this.checkBox180 = new System.Windows.Forms.CheckBox();
+            this.checkBox181 = new System.Windows.Forms.CheckBox();
+            this.checkBox182 = new System.Windows.Forms.CheckBox();
+            this.checkBox183 = new System.Windows.Forms.CheckBox();
+            this.checkBox184 = new System.Windows.Forms.CheckBox();
+            this.checkBox185 = new System.Windows.Forms.CheckBox();
+            this.checkBox186 = new System.Windows.Forms.CheckBox();
             this.numericUpDownPort = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownCtrlId = new System.Windows.Forms.NumericUpDown();
             this.checkBoxInvHiLo = new System.Windows.Forms.CheckBox();
@@ -269,7 +280,7 @@ namespace Zanac.XBOX2Classic
             this.tableLayoutPanelCheck.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanelCheck.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanelCheck.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanelCheck.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanelCheck.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox43, 1, 6);
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox41, 8, 5);
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox40, 7, 5);
@@ -476,40 +487,52 @@ namespace Zanac.XBOX2Classic
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox174, 6, 20);
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox175, 6, 21);
             this.tableLayoutPanelCheck.Controls.Add(this.checkBox176, 6, 22);
+            this.tableLayoutPanelCheck.Controls.Add(this.label6, 9, 0);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox177, 9, 5);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox178, 9, 6);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox179, 9, 7);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox180, 9, 8);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox181, 9, 9);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox182, 9, 10);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox183, 9, 11);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox184, 9, 12);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox185, 9, 17);
+            this.tableLayoutPanelCheck.Controls.Add(this.checkBox186, 9, 19);
             this.tableLayoutPanelCheck.Location = new System.Drawing.Point(3, 15);
             this.tableLayoutPanelCheck.Name = "tableLayoutPanelCheck";
             this.tableLayoutPanelCheck.RowCount = 24;
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCheck.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelCheck.Size = new System.Drawing.Size(402, 482);
+            this.tableLayoutPanelCheck.Size = new System.Drawing.Size(455, 482);
             this.tableLayoutPanelCheck.TabIndex = 1;
             // 
             // checkBox43
             // 
+            this.checkBox43.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox43.AutoSize = true;
-            this.checkBox43.Location = new System.Drawing.Point(80, 123);
+            this.checkBox43.Location = new System.Drawing.Point(89, 127);
             this.checkBox43.Name = "checkBox43";
             this.checkBox43.Size = new System.Drawing.Size(15, 14);
             this.checkBox43.TabIndex = 48;
@@ -518,8 +541,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox41
             // 
+            this.checkBox41.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox41.AutoSize = true;
-            this.checkBox41.Location = new System.Drawing.Point(360, 103);
+            this.checkBox41.Location = new System.Drawing.Point(369, 107);
             this.checkBox41.Name = "checkBox41";
             this.checkBox41.Size = new System.Drawing.Size(15, 14);
             this.checkBox41.TabIndex = 46;
@@ -528,8 +552,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox40
             // 
+            this.checkBox40.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox40.AutoSize = true;
-            this.checkBox40.Location = new System.Drawing.Point(320, 103);
+            this.checkBox40.Location = new System.Drawing.Point(329, 107);
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(15, 14);
             this.checkBox40.TabIndex = 45;
@@ -538,8 +563,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox39
             // 
+            this.checkBox39.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox39.AutoSize = true;
-            this.checkBox39.Location = new System.Drawing.Point(240, 103);
+            this.checkBox39.Location = new System.Drawing.Point(249, 107);
             this.checkBox39.Name = "checkBox39";
             this.checkBox39.Size = new System.Drawing.Size(15, 14);
             this.checkBox39.TabIndex = 44;
@@ -548,8 +574,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox38
             // 
+            this.checkBox38.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox38.AutoSize = true;
-            this.checkBox38.Location = new System.Drawing.Point(200, 103);
+            this.checkBox38.Location = new System.Drawing.Point(209, 107);
             this.checkBox38.Name = "checkBox38";
             this.checkBox38.Size = new System.Drawing.Size(15, 14);
             this.checkBox38.TabIndex = 43;
@@ -558,8 +585,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox37
             // 
+            this.checkBox37.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox37.AutoSize = true;
-            this.checkBox37.Location = new System.Drawing.Point(160, 103);
+            this.checkBox37.Location = new System.Drawing.Point(169, 107);
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(15, 14);
             this.checkBox37.TabIndex = 42;
@@ -568,8 +596,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox36
             // 
+            this.checkBox36.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(120, 103);
+            this.checkBox36.Location = new System.Drawing.Point(129, 107);
             this.checkBox36.Name = "checkBox36";
             this.checkBox36.Size = new System.Drawing.Size(15, 14);
             this.checkBox36.TabIndex = 41;
@@ -578,8 +607,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox35
             // 
+            this.checkBox35.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(80, 103);
+            this.checkBox35.Location = new System.Drawing.Point(89, 107);
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(15, 14);
             this.checkBox35.TabIndex = 40;
@@ -588,8 +618,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox33
             // 
+            this.checkBox33.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(360, 83);
+            this.checkBox33.Location = new System.Drawing.Point(369, 87);
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(15, 14);
             this.checkBox33.TabIndex = 38;
@@ -598,8 +629,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox32
             // 
+            this.checkBox32.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(320, 83);
+            this.checkBox32.Location = new System.Drawing.Point(329, 87);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(15, 14);
             this.checkBox32.TabIndex = 37;
@@ -608,8 +640,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox31
             // 
+            this.checkBox31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(240, 83);
+            this.checkBox31.Location = new System.Drawing.Point(249, 87);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(15, 14);
             this.checkBox31.TabIndex = 36;
@@ -618,8 +651,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox30
             // 
+            this.checkBox30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(200, 83);
+            this.checkBox30.Location = new System.Drawing.Point(209, 87);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(15, 14);
             this.checkBox30.TabIndex = 35;
@@ -628,8 +662,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox29
             // 
+            this.checkBox29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(160, 83);
+            this.checkBox29.Location = new System.Drawing.Point(169, 87);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(15, 14);
             this.checkBox29.TabIndex = 34;
@@ -638,8 +673,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox28
             // 
+            this.checkBox28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(120, 83);
+            this.checkBox28.Location = new System.Drawing.Point(129, 87);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(15, 14);
             this.checkBox28.TabIndex = 33;
@@ -648,8 +684,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox27
             // 
+            this.checkBox27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(80, 83);
+            this.checkBox27.Location = new System.Drawing.Point(89, 87);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(15, 14);
             this.checkBox27.TabIndex = 32;
@@ -658,8 +695,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox25
             // 
+            this.checkBox25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(360, 63);
+            this.checkBox25.Location = new System.Drawing.Point(369, 67);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(15, 14);
             this.checkBox25.TabIndex = 30;
@@ -668,8 +706,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox24
             // 
+            this.checkBox24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(320, 63);
+            this.checkBox24.Location = new System.Drawing.Point(329, 67);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(15, 14);
             this.checkBox24.TabIndex = 29;
@@ -678,8 +717,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox23
             // 
+            this.checkBox23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(240, 63);
+            this.checkBox23.Location = new System.Drawing.Point(249, 67);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(15, 14);
             this.checkBox23.TabIndex = 28;
@@ -688,8 +728,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox22
             // 
+            this.checkBox22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(200, 63);
+            this.checkBox22.Location = new System.Drawing.Point(209, 67);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(15, 14);
             this.checkBox22.TabIndex = 27;
@@ -698,8 +739,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox21
             // 
+            this.checkBox21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(160, 63);
+            this.checkBox21.Location = new System.Drawing.Point(169, 67);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(15, 14);
             this.checkBox21.TabIndex = 26;
@@ -708,8 +750,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox20
             // 
+            this.checkBox20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(120, 63);
+            this.checkBox20.Location = new System.Drawing.Point(129, 67);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(15, 14);
             this.checkBox20.TabIndex = 25;
@@ -718,8 +761,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox19
             // 
+            this.checkBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(80, 63);
+            this.checkBox19.Location = new System.Drawing.Point(89, 67);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(15, 14);
             this.checkBox19.TabIndex = 24;
@@ -728,8 +772,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox17
             // 
+            this.checkBox17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(360, 43);
+            this.checkBox17.Location = new System.Drawing.Point(369, 47);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(15, 14);
             this.checkBox17.TabIndex = 22;
@@ -738,8 +783,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox16
             // 
+            this.checkBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(320, 43);
+            this.checkBox16.Location = new System.Drawing.Point(329, 47);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(15, 14);
             this.checkBox16.TabIndex = 21;
@@ -748,8 +794,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox15
             // 
+            this.checkBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(240, 43);
+            this.checkBox15.Location = new System.Drawing.Point(249, 47);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(15, 14);
             this.checkBox15.TabIndex = 20;
@@ -758,8 +805,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox14
             // 
+            this.checkBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(200, 43);
+            this.checkBox14.Location = new System.Drawing.Point(209, 47);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(15, 14);
             this.checkBox14.TabIndex = 19;
@@ -768,8 +816,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox13
             // 
+            this.checkBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(160, 43);
+            this.checkBox13.Location = new System.Drawing.Point(169, 47);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(15, 14);
             this.checkBox13.TabIndex = 18;
@@ -778,8 +827,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox12
             // 
+            this.checkBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(120, 43);
+            this.checkBox12.Location = new System.Drawing.Point(129, 47);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(15, 14);
             this.checkBox12.TabIndex = 17;
@@ -788,8 +838,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox11
             // 
+            this.checkBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(80, 43);
+            this.checkBox11.Location = new System.Drawing.Point(89, 47);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(15, 14);
             this.checkBox11.TabIndex = 16;
@@ -800,7 +851,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelDPadUp.AutoSize = true;
             this.labelDPadUp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelDPadUp.Location = new System.Drawing.Point(3, 20);
+            this.labelDPadUp.Location = new System.Drawing.Point(3, 24);
             this.labelDPadUp.Name = "labelDPadUp";
             this.labelDPadUp.Size = new System.Drawing.Size(71, 20);
             this.labelDPadUp.TabIndex = 7;
@@ -811,7 +862,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelDPadLeft.AutoSize = true;
             this.labelDPadLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelDPadLeft.Location = new System.Drawing.Point(3, 40);
+            this.labelDPadLeft.Location = new System.Drawing.Point(3, 44);
             this.labelDPadLeft.Name = "labelDPadLeft";
             this.labelDPadLeft.Size = new System.Drawing.Size(71, 20);
             this.labelDPadLeft.TabIndex = 15;
@@ -822,7 +873,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelDPadRight.AutoSize = true;
             this.labelDPadRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelDPadRight.Location = new System.Drawing.Point(3, 60);
+            this.labelDPadRight.Location = new System.Drawing.Point(3, 64);
             this.labelDPadRight.Name = "labelDPadRight";
             this.labelDPadRight.Size = new System.Drawing.Size(71, 20);
             this.labelDPadRight.TabIndex = 23;
@@ -833,7 +884,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelDPadDown.AutoSize = true;
             this.labelDPadDown.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelDPadDown.Location = new System.Drawing.Point(3, 80);
+            this.labelDPadDown.Location = new System.Drawing.Point(3, 84);
             this.labelDPadDown.Name = "labelDPadDown";
             this.labelDPadDown.Size = new System.Drawing.Size(71, 20);
             this.labelDPadDown.TabIndex = 31;
@@ -844,7 +895,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLStickUp.AutoSize = true;
             this.labelLStickUp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLStickUp.Location = new System.Drawing.Point(3, 100);
+            this.labelLStickUp.Location = new System.Drawing.Point(3, 104);
             this.labelLStickUp.Name = "labelLStickUp";
             this.labelLStickUp.Size = new System.Drawing.Size(71, 20);
             this.labelLStickUp.TabIndex = 39;
@@ -855,7 +906,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLStickLeft.AutoSize = true;
             this.labelLStickLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLStickLeft.Location = new System.Drawing.Point(3, 120);
+            this.labelLStickLeft.Location = new System.Drawing.Point(3, 124);
             this.labelLStickLeft.Name = "labelLStickLeft";
             this.labelLStickLeft.Size = new System.Drawing.Size(71, 20);
             this.labelLStickLeft.TabIndex = 47;
@@ -866,7 +917,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLStickRight.AutoSize = true;
             this.labelLStickRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLStickRight.Location = new System.Drawing.Point(3, 140);
+            this.labelLStickRight.Location = new System.Drawing.Point(3, 144);
             this.labelLStickRight.Name = "labelLStickRight";
             this.labelLStickRight.Size = new System.Drawing.Size(71, 20);
             this.labelLStickRight.TabIndex = 55;
@@ -877,7 +928,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLStickDown.AutoSize = true;
             this.labelLStickDown.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLStickDown.Location = new System.Drawing.Point(3, 160);
+            this.labelLStickDown.Location = new System.Drawing.Point(3, 164);
             this.labelLStickDown.Name = "labelLStickDown";
             this.labelLStickDown.Size = new System.Drawing.Size(71, 20);
             this.labelLStickDown.TabIndex = 182;
@@ -888,7 +939,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelRStickUp.AutoSize = true;
             this.labelRStickUp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelRStickUp.Location = new System.Drawing.Point(3, 180);
+            this.labelRStickUp.Location = new System.Drawing.Point(3, 184);
             this.labelRStickUp.Name = "labelRStickUp";
             this.labelRStickUp.Size = new System.Drawing.Size(71, 20);
             this.labelRStickUp.TabIndex = 70;
@@ -899,7 +950,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.label1RStickLeft.AutoSize = true;
             this.label1RStickLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1RStickLeft.Location = new System.Drawing.Point(3, 200);
+            this.label1RStickLeft.Location = new System.Drawing.Point(3, 204);
             this.label1RStickLeft.Name = "label1RStickLeft";
             this.label1RStickLeft.Size = new System.Drawing.Size(71, 20);
             this.label1RStickLeft.TabIndex = 78;
@@ -910,7 +961,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelRStickRight.AutoSize = true;
             this.labelRStickRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelRStickRight.Location = new System.Drawing.Point(3, 220);
+            this.labelRStickRight.Location = new System.Drawing.Point(3, 224);
             this.labelRStickRight.Name = "labelRStickRight";
             this.labelRStickRight.Size = new System.Drawing.Size(71, 20);
             this.labelRStickRight.TabIndex = 86;
@@ -921,7 +972,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelRStickDown.AutoSize = true;
             this.labelRStickDown.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelRStickDown.Location = new System.Drawing.Point(3, 240);
+            this.labelRStickDown.Location = new System.Drawing.Point(3, 244);
             this.labelRStickDown.Name = "labelRStickDown";
             this.labelRStickDown.Size = new System.Drawing.Size(71, 20);
             this.labelRStickDown.TabIndex = 94;
@@ -932,7 +983,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelY.AutoSize = true;
             this.labelY.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelY.Location = new System.Drawing.Point(3, 260);
+            this.labelY.Location = new System.Drawing.Point(3, 264);
             this.labelY.Name = "labelY";
             this.labelY.Size = new System.Drawing.Size(71, 20);
             this.labelY.TabIndex = 102;
@@ -943,7 +994,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelX.AutoSize = true;
             this.labelX.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelX.Location = new System.Drawing.Point(3, 280);
+            this.labelX.Location = new System.Drawing.Point(3, 284);
             this.labelX.Name = "labelX";
             this.labelX.Size = new System.Drawing.Size(71, 20);
             this.labelX.TabIndex = 110;
@@ -954,7 +1005,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelB.AutoSize = true;
             this.labelB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelB.Location = new System.Drawing.Point(3, 300);
+            this.labelB.Location = new System.Drawing.Point(3, 304);
             this.labelB.Name = "labelB";
             this.labelB.Size = new System.Drawing.Size(71, 20);
             this.labelB.TabIndex = 118;
@@ -965,7 +1016,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelA.AutoSize = true;
             this.labelA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelA.Location = new System.Drawing.Point(3, 320);
+            this.labelA.Location = new System.Drawing.Point(3, 324);
             this.labelA.Name = "labelA";
             this.labelA.Size = new System.Drawing.Size(71, 20);
             this.labelA.TabIndex = 126;
@@ -976,7 +1027,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLTrigger.AutoSize = true;
             this.labelLTrigger.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLTrigger.Location = new System.Drawing.Point(3, 340);
+            this.labelLTrigger.Location = new System.Drawing.Point(3, 344);
             this.labelLTrigger.Name = "labelLTrigger";
             this.labelLTrigger.Size = new System.Drawing.Size(71, 20);
             this.labelLTrigger.TabIndex = 134;
@@ -987,7 +1038,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelLBumper.AutoSize = true;
             this.labelLBumper.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelLBumper.Location = new System.Drawing.Point(3, 360);
+            this.labelLBumper.Location = new System.Drawing.Point(3, 364);
             this.labelLBumper.Name = "labelLBumper";
             this.labelLBumper.Size = new System.Drawing.Size(71, 20);
             this.labelLBumper.TabIndex = 142;
@@ -998,7 +1049,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelRTrigger.AutoSize = true;
             this.labelRTrigger.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelRTrigger.Location = new System.Drawing.Point(3, 380);
+            this.labelRTrigger.Location = new System.Drawing.Point(3, 384);
             this.labelRTrigger.Name = "labelRTrigger";
             this.labelRTrigger.Size = new System.Drawing.Size(71, 20);
             this.labelRTrigger.TabIndex = 150;
@@ -1009,7 +1060,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelRBumper.AutoSize = true;
             this.labelRBumper.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelRBumper.Location = new System.Drawing.Point(3, 400);
+            this.labelRBumper.Location = new System.Drawing.Point(3, 404);
             this.labelRBumper.Name = "labelRBumper";
             this.labelRBumper.Size = new System.Drawing.Size(71, 20);
             this.labelRBumper.TabIndex = 158;
@@ -1020,7 +1071,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelBack.AutoSize = true;
             this.labelBack.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelBack.Location = new System.Drawing.Point(3, 420);
+            this.labelBack.Location = new System.Drawing.Point(3, 424);
             this.labelBack.Name = "labelBack";
             this.labelBack.Size = new System.Drawing.Size(71, 20);
             this.labelBack.TabIndex = 166;
@@ -1031,7 +1082,7 @@ namespace Zanac.XBOX2Classic
             // 
             this.labelStart.AutoSize = true;
             this.labelStart.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelStart.Location = new System.Drawing.Point(3, 440);
+            this.labelStart.Location = new System.Drawing.Point(3, 444);
             this.labelStart.Name = "labelStart";
             this.labelStart.Size = new System.Drawing.Size(71, 20);
             this.labelStart.TabIndex = 174;
@@ -1041,27 +1092,30 @@ namespace Zanac.XBOX2Classic
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label24.Location = new System.Drawing.Point(80, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(27, 12);
+            this.label24.Size = new System.Drawing.Size(34, 24);
             this.label24.TabIndex = 0;
             this.label24.Text = "TXD";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label25.Location = new System.Drawing.Point(120, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(28, 12);
+            this.label25.Size = new System.Drawing.Size(34, 24);
             this.label25.TabIndex = 1;
             this.label25.Text = "RXD";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox1
             // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(80, 23);
+            this.checkBox1.Location = new System.Drawing.Point(89, 27);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 8;
@@ -1070,8 +1124,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox2
             // 
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(120, 23);
+            this.checkBox2.Location = new System.Drawing.Point(129, 27);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 9;
@@ -1081,17 +1136,19 @@ namespace Zanac.XBOX2Classic
             // label26
             // 
             this.label26.AutoSize = true;
+            this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Location = new System.Drawing.Point(160, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(27, 12);
+            this.label26.Size = new System.Drawing.Size(34, 24);
             this.label26.TabIndex = 2;
             this.label26.Text = "RTS";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox3
             // 
+            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(160, 23);
+            this.checkBox3.Location = new System.Drawing.Point(169, 27);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 10;
@@ -1101,27 +1158,30 @@ namespace Zanac.XBOX2Classic
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Location = new System.Drawing.Point(200, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(27, 12);
+            this.label27.Size = new System.Drawing.Size(34, 24);
             this.label27.TabIndex = 3;
             this.label27.Text = "CTS";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
+            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label28.Location = new System.Drawing.Point(240, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(28, 12);
+            this.label28.Size = new System.Drawing.Size(34, 24);
             this.label28.TabIndex = 4;
             this.label28.Text = "DTR";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox4
             // 
+            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(200, 23);
+            this.checkBox4.Location = new System.Drawing.Point(209, 27);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 11;
@@ -1130,8 +1190,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox5
             // 
+            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(240, 23);
+            this.checkBox5.Location = new System.Drawing.Point(249, 27);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 12;
@@ -1141,17 +1202,19 @@ namespace Zanac.XBOX2Classic
             // label29
             // 
             this.label29.AutoSize = true;
+            this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label29.Location = new System.Drawing.Point(320, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(29, 12);
+            this.label29.Size = new System.Drawing.Size(34, 24);
             this.label29.TabIndex = 5;
             this.label29.Text = "DCD";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox6
             // 
+            this.checkBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(320, 23);
+            this.checkBox6.Location = new System.Drawing.Point(329, 27);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 13;
@@ -1161,17 +1224,19 @@ namespace Zanac.XBOX2Classic
             // label30
             // 
             this.label30.AutoSize = true;
+            this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label30.Location = new System.Drawing.Point(360, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(16, 12);
+            this.label30.Size = new System.Drawing.Size(34, 24);
             this.label30.TabIndex = 6;
             this.label30.Text = "RI";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox7
             // 
+            this.checkBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(360, 23);
+            this.checkBox7.Location = new System.Drawing.Point(369, 27);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 14;
@@ -1180,8 +1245,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox8
             // 
+            this.checkBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(120, 123);
+            this.checkBox8.Location = new System.Drawing.Point(129, 127);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(15, 14);
             this.checkBox8.TabIndex = 49;
@@ -1190,8 +1256,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox44
             // 
+            this.checkBox44.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox44.AutoSize = true;
-            this.checkBox44.Location = new System.Drawing.Point(160, 123);
+            this.checkBox44.Location = new System.Drawing.Point(169, 127);
             this.checkBox44.Name = "checkBox44";
             this.checkBox44.Size = new System.Drawing.Size(15, 14);
             this.checkBox44.TabIndex = 50;
@@ -1200,8 +1267,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox45
             // 
+            this.checkBox45.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox45.AutoSize = true;
-            this.checkBox45.Location = new System.Drawing.Point(200, 123);
+            this.checkBox45.Location = new System.Drawing.Point(209, 127);
             this.checkBox45.Name = "checkBox45";
             this.checkBox45.Size = new System.Drawing.Size(15, 14);
             this.checkBox45.TabIndex = 51;
@@ -1210,8 +1278,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox46
             // 
+            this.checkBox46.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox46.AutoSize = true;
-            this.checkBox46.Location = new System.Drawing.Point(240, 123);
+            this.checkBox46.Location = new System.Drawing.Point(249, 127);
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.Size = new System.Drawing.Size(15, 14);
             this.checkBox46.TabIndex = 52;
@@ -1220,8 +1289,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox47
             // 
+            this.checkBox47.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox47.AutoSize = true;
-            this.checkBox47.Location = new System.Drawing.Point(320, 123);
+            this.checkBox47.Location = new System.Drawing.Point(329, 127);
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(15, 14);
             this.checkBox47.TabIndex = 53;
@@ -1230,8 +1300,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox48
             // 
+            this.checkBox48.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox48.AutoSize = true;
-            this.checkBox48.Location = new System.Drawing.Point(360, 123);
+            this.checkBox48.Location = new System.Drawing.Point(369, 127);
             this.checkBox48.Name = "checkBox48";
             this.checkBox48.Size = new System.Drawing.Size(15, 14);
             this.checkBox48.TabIndex = 54;
@@ -1240,8 +1311,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox9
             // 
+            this.checkBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(80, 143);
+            this.checkBox9.Location = new System.Drawing.Point(89, 147);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(15, 14);
             this.checkBox9.TabIndex = 56;
@@ -1250,8 +1322,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox10
             // 
+            this.checkBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(80, 163);
+            this.checkBox10.Location = new System.Drawing.Point(89, 167);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(15, 14);
             this.checkBox10.TabIndex = 63;
@@ -1260,8 +1333,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox18
             // 
+            this.checkBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(80, 183);
+            this.checkBox18.Location = new System.Drawing.Point(89, 187);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(15, 14);
             this.checkBox18.TabIndex = 71;
@@ -1270,8 +1344,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox26
             // 
+            this.checkBox26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(80, 203);
+            this.checkBox26.Location = new System.Drawing.Point(89, 207);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(15, 14);
             this.checkBox26.TabIndex = 79;
@@ -1280,8 +1355,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox34
             // 
+            this.checkBox34.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(80, 223);
+            this.checkBox34.Location = new System.Drawing.Point(89, 227);
             this.checkBox34.Name = "checkBox34";
             this.checkBox34.Size = new System.Drawing.Size(15, 14);
             this.checkBox34.TabIndex = 87;
@@ -1290,8 +1366,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox42
             // 
+            this.checkBox42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox42.AutoSize = true;
-            this.checkBox42.Location = new System.Drawing.Point(80, 243);
+            this.checkBox42.Location = new System.Drawing.Point(89, 247);
             this.checkBox42.Name = "checkBox42";
             this.checkBox42.Size = new System.Drawing.Size(15, 14);
             this.checkBox42.TabIndex = 95;
@@ -1300,8 +1377,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox49
             // 
+            this.checkBox49.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox49.AutoSize = true;
-            this.checkBox49.Location = new System.Drawing.Point(80, 283);
+            this.checkBox49.Location = new System.Drawing.Point(89, 287);
             this.checkBox49.Name = "checkBox49";
             this.checkBox49.Size = new System.Drawing.Size(15, 14);
             this.checkBox49.TabIndex = 111;
@@ -1310,8 +1388,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox50
             // 
+            this.checkBox50.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox50.AutoSize = true;
-            this.checkBox50.Location = new System.Drawing.Point(80, 323);
+            this.checkBox50.Location = new System.Drawing.Point(89, 327);
             this.checkBox50.Name = "checkBox50";
             this.checkBox50.Size = new System.Drawing.Size(15, 14);
             this.checkBox50.TabIndex = 127;
@@ -1320,8 +1399,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox51
             // 
+            this.checkBox51.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox51.AutoSize = true;
-            this.checkBox51.Location = new System.Drawing.Point(80, 263);
+            this.checkBox51.Location = new System.Drawing.Point(89, 267);
             this.checkBox51.Name = "checkBox51";
             this.checkBox51.Size = new System.Drawing.Size(15, 14);
             this.checkBox51.TabIndex = 103;
@@ -1330,8 +1410,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox52
             // 
+            this.checkBox52.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox52.AutoSize = true;
-            this.checkBox52.Location = new System.Drawing.Point(80, 303);
+            this.checkBox52.Location = new System.Drawing.Point(89, 307);
             this.checkBox52.Name = "checkBox52";
             this.checkBox52.Size = new System.Drawing.Size(15, 14);
             this.checkBox52.TabIndex = 119;
@@ -1340,8 +1421,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox53
             // 
+            this.checkBox53.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox53.AutoSize = true;
-            this.checkBox53.Location = new System.Drawing.Point(80, 343);
+            this.checkBox53.Location = new System.Drawing.Point(89, 347);
             this.checkBox53.Name = "checkBox53";
             this.checkBox53.Size = new System.Drawing.Size(15, 14);
             this.checkBox53.TabIndex = 135;
@@ -1350,8 +1432,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox54
             // 
+            this.checkBox54.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(80, 363);
+            this.checkBox54.Location = new System.Drawing.Point(89, 367);
             this.checkBox54.Name = "checkBox54";
             this.checkBox54.Size = new System.Drawing.Size(15, 14);
             this.checkBox54.TabIndex = 143;
@@ -1360,8 +1443,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox55
             // 
+            this.checkBox55.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox55.AutoSize = true;
-            this.checkBox55.Location = new System.Drawing.Point(80, 383);
+            this.checkBox55.Location = new System.Drawing.Point(89, 387);
             this.checkBox55.Name = "checkBox55";
             this.checkBox55.Size = new System.Drawing.Size(15, 14);
             this.checkBox55.TabIndex = 151;
@@ -1370,8 +1454,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox56
             // 
+            this.checkBox56.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox56.AutoSize = true;
-            this.checkBox56.Location = new System.Drawing.Point(80, 403);
+            this.checkBox56.Location = new System.Drawing.Point(89, 407);
             this.checkBox56.Name = "checkBox56";
             this.checkBox56.Size = new System.Drawing.Size(15, 14);
             this.checkBox56.TabIndex = 159;
@@ -1380,8 +1465,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox57
             // 
+            this.checkBox57.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox57.AutoSize = true;
-            this.checkBox57.Location = new System.Drawing.Point(80, 423);
+            this.checkBox57.Location = new System.Drawing.Point(89, 427);
             this.checkBox57.Name = "checkBox57";
             this.checkBox57.Size = new System.Drawing.Size(15, 14);
             this.checkBox57.TabIndex = 167;
@@ -1390,8 +1476,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox58
             // 
+            this.checkBox58.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox58.AutoSize = true;
-            this.checkBox58.Location = new System.Drawing.Point(80, 443);
+            this.checkBox58.Location = new System.Drawing.Point(89, 447);
             this.checkBox58.Name = "checkBox58";
             this.checkBox58.Size = new System.Drawing.Size(15, 14);
             this.checkBox58.TabIndex = 175;
@@ -1400,8 +1487,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox59
             // 
+            this.checkBox59.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox59.AutoSize = true;
-            this.checkBox59.Location = new System.Drawing.Point(120, 143);
+            this.checkBox59.Location = new System.Drawing.Point(129, 147);
             this.checkBox59.Name = "checkBox59";
             this.checkBox59.Size = new System.Drawing.Size(15, 14);
             this.checkBox59.TabIndex = 57;
@@ -1410,8 +1498,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox60
             // 
+            this.checkBox60.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox60.AutoSize = true;
-            this.checkBox60.Location = new System.Drawing.Point(160, 143);
+            this.checkBox60.Location = new System.Drawing.Point(169, 147);
             this.checkBox60.Name = "checkBox60";
             this.checkBox60.Size = new System.Drawing.Size(15, 14);
             this.checkBox60.TabIndex = 58;
@@ -1420,8 +1509,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox61
             // 
+            this.checkBox61.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox61.AutoSize = true;
-            this.checkBox61.Location = new System.Drawing.Point(200, 143);
+            this.checkBox61.Location = new System.Drawing.Point(209, 147);
             this.checkBox61.Name = "checkBox61";
             this.checkBox61.Size = new System.Drawing.Size(15, 14);
             this.checkBox61.TabIndex = 59;
@@ -1430,8 +1520,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox62
             // 
+            this.checkBox62.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox62.AutoSize = true;
-            this.checkBox62.Location = new System.Drawing.Point(240, 143);
+            this.checkBox62.Location = new System.Drawing.Point(249, 147);
             this.checkBox62.Name = "checkBox62";
             this.checkBox62.Size = new System.Drawing.Size(15, 14);
             this.checkBox62.TabIndex = 60;
@@ -1440,8 +1531,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox63
             // 
+            this.checkBox63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox63.AutoSize = true;
-            this.checkBox63.Location = new System.Drawing.Point(320, 143);
+            this.checkBox63.Location = new System.Drawing.Point(329, 147);
             this.checkBox63.Name = "checkBox63";
             this.checkBox63.Size = new System.Drawing.Size(15, 14);
             this.checkBox63.TabIndex = 61;
@@ -1450,8 +1542,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox64
             // 
+            this.checkBox64.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox64.AutoSize = true;
-            this.checkBox64.Location = new System.Drawing.Point(360, 143);
+            this.checkBox64.Location = new System.Drawing.Point(369, 147);
             this.checkBox64.Name = "checkBox64";
             this.checkBox64.Size = new System.Drawing.Size(15, 14);
             this.checkBox64.TabIndex = 62;
@@ -1460,8 +1553,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox65
             // 
+            this.checkBox65.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox65.AutoSize = true;
-            this.checkBox65.Location = new System.Drawing.Point(360, 163);
+            this.checkBox65.Location = new System.Drawing.Point(369, 167);
             this.checkBox65.Name = "checkBox65";
             this.checkBox65.Size = new System.Drawing.Size(15, 14);
             this.checkBox65.TabIndex = 69;
@@ -1470,8 +1564,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox66
             // 
+            this.checkBox66.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox66.AutoSize = true;
-            this.checkBox66.Location = new System.Drawing.Point(320, 163);
+            this.checkBox66.Location = new System.Drawing.Point(329, 167);
             this.checkBox66.Name = "checkBox66";
             this.checkBox66.Size = new System.Drawing.Size(15, 14);
             this.checkBox66.TabIndex = 68;
@@ -1480,8 +1575,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox67
             // 
+            this.checkBox67.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox67.AutoSize = true;
-            this.checkBox67.Location = new System.Drawing.Point(240, 163);
+            this.checkBox67.Location = new System.Drawing.Point(249, 167);
             this.checkBox67.Name = "checkBox67";
             this.checkBox67.Size = new System.Drawing.Size(15, 14);
             this.checkBox67.TabIndex = 67;
@@ -1490,8 +1586,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox68
             // 
+            this.checkBox68.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox68.AutoSize = true;
-            this.checkBox68.Location = new System.Drawing.Point(200, 163);
+            this.checkBox68.Location = new System.Drawing.Point(209, 167);
             this.checkBox68.Name = "checkBox68";
             this.checkBox68.Size = new System.Drawing.Size(15, 14);
             this.checkBox68.TabIndex = 66;
@@ -1500,8 +1597,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox69
             // 
+            this.checkBox69.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox69.AutoSize = true;
-            this.checkBox69.Location = new System.Drawing.Point(160, 163);
+            this.checkBox69.Location = new System.Drawing.Point(169, 167);
             this.checkBox69.Name = "checkBox69";
             this.checkBox69.Size = new System.Drawing.Size(15, 14);
             this.checkBox69.TabIndex = 65;
@@ -1510,8 +1608,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox70
             // 
+            this.checkBox70.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox70.AutoSize = true;
-            this.checkBox70.Location = new System.Drawing.Point(120, 163);
+            this.checkBox70.Location = new System.Drawing.Point(129, 167);
             this.checkBox70.Name = "checkBox70";
             this.checkBox70.Size = new System.Drawing.Size(15, 14);
             this.checkBox70.TabIndex = 64;
@@ -1520,8 +1619,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox71
             // 
+            this.checkBox71.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox71.AutoSize = true;
-            this.checkBox71.Location = new System.Drawing.Point(120, 183);
+            this.checkBox71.Location = new System.Drawing.Point(129, 187);
             this.checkBox71.Name = "checkBox71";
             this.checkBox71.Size = new System.Drawing.Size(15, 14);
             this.checkBox71.TabIndex = 72;
@@ -1530,8 +1630,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox72
             // 
+            this.checkBox72.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox72.AutoSize = true;
-            this.checkBox72.Location = new System.Drawing.Point(120, 203);
+            this.checkBox72.Location = new System.Drawing.Point(129, 207);
             this.checkBox72.Name = "checkBox72";
             this.checkBox72.Size = new System.Drawing.Size(15, 14);
             this.checkBox72.TabIndex = 80;
@@ -1540,8 +1641,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox73
             // 
+            this.checkBox73.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox73.AutoSize = true;
-            this.checkBox73.Location = new System.Drawing.Point(120, 223);
+            this.checkBox73.Location = new System.Drawing.Point(129, 227);
             this.checkBox73.Name = "checkBox73";
             this.checkBox73.Size = new System.Drawing.Size(15, 14);
             this.checkBox73.TabIndex = 88;
@@ -1550,8 +1652,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox74
             // 
+            this.checkBox74.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox74.AutoSize = true;
-            this.checkBox74.Location = new System.Drawing.Point(120, 243);
+            this.checkBox74.Location = new System.Drawing.Point(129, 247);
             this.checkBox74.Name = "checkBox74";
             this.checkBox74.Size = new System.Drawing.Size(15, 14);
             this.checkBox74.TabIndex = 96;
@@ -1560,8 +1663,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox75
             // 
+            this.checkBox75.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox75.AutoSize = true;
-            this.checkBox75.Location = new System.Drawing.Point(120, 263);
+            this.checkBox75.Location = new System.Drawing.Point(129, 267);
             this.checkBox75.Name = "checkBox75";
             this.checkBox75.Size = new System.Drawing.Size(15, 14);
             this.checkBox75.TabIndex = 104;
@@ -1570,8 +1674,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox76
             // 
+            this.checkBox76.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox76.AutoSize = true;
-            this.checkBox76.Location = new System.Drawing.Point(120, 283);
+            this.checkBox76.Location = new System.Drawing.Point(129, 287);
             this.checkBox76.Name = "checkBox76";
             this.checkBox76.Size = new System.Drawing.Size(15, 14);
             this.checkBox76.TabIndex = 112;
@@ -1580,8 +1685,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox77
             // 
+            this.checkBox77.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox77.AutoSize = true;
-            this.checkBox77.Location = new System.Drawing.Point(120, 303);
+            this.checkBox77.Location = new System.Drawing.Point(129, 307);
             this.checkBox77.Name = "checkBox77";
             this.checkBox77.Size = new System.Drawing.Size(15, 14);
             this.checkBox77.TabIndex = 120;
@@ -1590,8 +1696,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox78
             // 
+            this.checkBox78.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox78.AutoSize = true;
-            this.checkBox78.Location = new System.Drawing.Point(120, 323);
+            this.checkBox78.Location = new System.Drawing.Point(129, 327);
             this.checkBox78.Name = "checkBox78";
             this.checkBox78.Size = new System.Drawing.Size(15, 14);
             this.checkBox78.TabIndex = 128;
@@ -1600,8 +1707,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox79
             // 
+            this.checkBox79.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox79.AutoSize = true;
-            this.checkBox79.Location = new System.Drawing.Point(120, 343);
+            this.checkBox79.Location = new System.Drawing.Point(129, 347);
             this.checkBox79.Name = "checkBox79";
             this.checkBox79.Size = new System.Drawing.Size(15, 14);
             this.checkBox79.TabIndex = 136;
@@ -1610,8 +1718,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox80
             // 
+            this.checkBox80.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox80.AutoSize = true;
-            this.checkBox80.Location = new System.Drawing.Point(120, 363);
+            this.checkBox80.Location = new System.Drawing.Point(129, 367);
             this.checkBox80.Name = "checkBox80";
             this.checkBox80.Size = new System.Drawing.Size(15, 14);
             this.checkBox80.TabIndex = 144;
@@ -1620,8 +1729,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox81
             // 
+            this.checkBox81.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox81.AutoSize = true;
-            this.checkBox81.Location = new System.Drawing.Point(120, 383);
+            this.checkBox81.Location = new System.Drawing.Point(129, 387);
             this.checkBox81.Name = "checkBox81";
             this.checkBox81.Size = new System.Drawing.Size(15, 14);
             this.checkBox81.TabIndex = 152;
@@ -1630,8 +1740,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox82
             // 
+            this.checkBox82.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox82.AutoSize = true;
-            this.checkBox82.Location = new System.Drawing.Point(120, 403);
+            this.checkBox82.Location = new System.Drawing.Point(129, 407);
             this.checkBox82.Name = "checkBox82";
             this.checkBox82.Size = new System.Drawing.Size(15, 14);
             this.checkBox82.TabIndex = 160;
@@ -1640,8 +1751,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox83
             // 
+            this.checkBox83.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox83.AutoSize = true;
-            this.checkBox83.Location = new System.Drawing.Point(120, 423);
+            this.checkBox83.Location = new System.Drawing.Point(129, 427);
             this.checkBox83.Name = "checkBox83";
             this.checkBox83.Size = new System.Drawing.Size(15, 14);
             this.checkBox83.TabIndex = 168;
@@ -1650,8 +1762,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox84
             // 
+            this.checkBox84.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox84.AutoSize = true;
-            this.checkBox84.Location = new System.Drawing.Point(120, 443);
+            this.checkBox84.Location = new System.Drawing.Point(129, 447);
             this.checkBox84.Name = "checkBox84";
             this.checkBox84.Size = new System.Drawing.Size(15, 14);
             this.checkBox84.TabIndex = 176;
@@ -1660,8 +1773,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox85
             // 
+            this.checkBox85.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox85.AutoSize = true;
-            this.checkBox85.Location = new System.Drawing.Point(160, 443);
+            this.checkBox85.Location = new System.Drawing.Point(169, 447);
             this.checkBox85.Name = "checkBox85";
             this.checkBox85.Size = new System.Drawing.Size(15, 14);
             this.checkBox85.TabIndex = 177;
@@ -1670,8 +1784,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox86
             // 
+            this.checkBox86.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox86.AutoSize = true;
-            this.checkBox86.Location = new System.Drawing.Point(160, 423);
+            this.checkBox86.Location = new System.Drawing.Point(169, 427);
             this.checkBox86.Name = "checkBox86";
             this.checkBox86.Size = new System.Drawing.Size(15, 14);
             this.checkBox86.TabIndex = 169;
@@ -1680,8 +1795,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox87
             // 
+            this.checkBox87.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox87.AutoSize = true;
-            this.checkBox87.Location = new System.Drawing.Point(160, 403);
+            this.checkBox87.Location = new System.Drawing.Point(169, 407);
             this.checkBox87.Name = "checkBox87";
             this.checkBox87.Size = new System.Drawing.Size(15, 14);
             this.checkBox87.TabIndex = 161;
@@ -1690,8 +1806,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox88
             // 
+            this.checkBox88.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox88.AutoSize = true;
-            this.checkBox88.Location = new System.Drawing.Point(160, 383);
+            this.checkBox88.Location = new System.Drawing.Point(169, 387);
             this.checkBox88.Name = "checkBox88";
             this.checkBox88.Size = new System.Drawing.Size(15, 14);
             this.checkBox88.TabIndex = 153;
@@ -1700,8 +1817,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox89
             // 
+            this.checkBox89.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox89.AutoSize = true;
-            this.checkBox89.Location = new System.Drawing.Point(160, 363);
+            this.checkBox89.Location = new System.Drawing.Point(169, 367);
             this.checkBox89.Name = "checkBox89";
             this.checkBox89.Size = new System.Drawing.Size(15, 14);
             this.checkBox89.TabIndex = 145;
@@ -1710,8 +1828,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox90
             // 
+            this.checkBox90.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox90.AutoSize = true;
-            this.checkBox90.Location = new System.Drawing.Point(160, 343);
+            this.checkBox90.Location = new System.Drawing.Point(169, 347);
             this.checkBox90.Name = "checkBox90";
             this.checkBox90.Size = new System.Drawing.Size(15, 14);
             this.checkBox90.TabIndex = 137;
@@ -1720,8 +1839,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox91
             // 
+            this.checkBox91.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox91.AutoSize = true;
-            this.checkBox91.Location = new System.Drawing.Point(160, 323);
+            this.checkBox91.Location = new System.Drawing.Point(169, 327);
             this.checkBox91.Name = "checkBox91";
             this.checkBox91.Size = new System.Drawing.Size(15, 14);
             this.checkBox91.TabIndex = 129;
@@ -1730,8 +1850,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox92
             // 
+            this.checkBox92.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox92.AutoSize = true;
-            this.checkBox92.Location = new System.Drawing.Point(160, 303);
+            this.checkBox92.Location = new System.Drawing.Point(169, 307);
             this.checkBox92.Name = "checkBox92";
             this.checkBox92.Size = new System.Drawing.Size(15, 14);
             this.checkBox92.TabIndex = 121;
@@ -1740,8 +1861,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox93
             // 
+            this.checkBox93.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox93.AutoSize = true;
-            this.checkBox93.Location = new System.Drawing.Point(160, 283);
+            this.checkBox93.Location = new System.Drawing.Point(169, 287);
             this.checkBox93.Name = "checkBox93";
             this.checkBox93.Size = new System.Drawing.Size(15, 14);
             this.checkBox93.TabIndex = 113;
@@ -1750,8 +1872,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox94
             // 
+            this.checkBox94.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox94.AutoSize = true;
-            this.checkBox94.Location = new System.Drawing.Point(160, 263);
+            this.checkBox94.Location = new System.Drawing.Point(169, 267);
             this.checkBox94.Name = "checkBox94";
             this.checkBox94.Size = new System.Drawing.Size(15, 14);
             this.checkBox94.TabIndex = 105;
@@ -1760,8 +1883,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox95
             // 
+            this.checkBox95.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox95.AutoSize = true;
-            this.checkBox95.Location = new System.Drawing.Point(160, 243);
+            this.checkBox95.Location = new System.Drawing.Point(169, 247);
             this.checkBox95.Name = "checkBox95";
             this.checkBox95.Size = new System.Drawing.Size(15, 14);
             this.checkBox95.TabIndex = 97;
@@ -1770,8 +1894,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox96
             // 
+            this.checkBox96.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox96.AutoSize = true;
-            this.checkBox96.Location = new System.Drawing.Point(160, 223);
+            this.checkBox96.Location = new System.Drawing.Point(169, 227);
             this.checkBox96.Name = "checkBox96";
             this.checkBox96.Size = new System.Drawing.Size(15, 14);
             this.checkBox96.TabIndex = 89;
@@ -1780,8 +1905,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox97
             // 
+            this.checkBox97.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox97.AutoSize = true;
-            this.checkBox97.Location = new System.Drawing.Point(160, 203);
+            this.checkBox97.Location = new System.Drawing.Point(169, 207);
             this.checkBox97.Name = "checkBox97";
             this.checkBox97.Size = new System.Drawing.Size(15, 14);
             this.checkBox97.TabIndex = 81;
@@ -1790,8 +1916,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox98
             // 
+            this.checkBox98.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox98.AutoSize = true;
-            this.checkBox98.Location = new System.Drawing.Point(160, 183);
+            this.checkBox98.Location = new System.Drawing.Point(169, 187);
             this.checkBox98.Name = "checkBox98";
             this.checkBox98.Size = new System.Drawing.Size(15, 14);
             this.checkBox98.TabIndex = 73;
@@ -1800,8 +1927,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox99
             // 
+            this.checkBox99.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox99.AutoSize = true;
-            this.checkBox99.Location = new System.Drawing.Point(200, 183);
+            this.checkBox99.Location = new System.Drawing.Point(209, 187);
             this.checkBox99.Name = "checkBox99";
             this.checkBox99.Size = new System.Drawing.Size(15, 14);
             this.checkBox99.TabIndex = 74;
@@ -1810,8 +1938,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox100
             // 
+            this.checkBox100.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox100.AutoSize = true;
-            this.checkBox100.Location = new System.Drawing.Point(240, 183);
+            this.checkBox100.Location = new System.Drawing.Point(249, 187);
             this.checkBox100.Name = "checkBox100";
             this.checkBox100.Size = new System.Drawing.Size(15, 14);
             this.checkBox100.TabIndex = 75;
@@ -1820,8 +1949,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox101
             // 
+            this.checkBox101.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox101.AutoSize = true;
-            this.checkBox101.Location = new System.Drawing.Point(320, 183);
+            this.checkBox101.Location = new System.Drawing.Point(329, 187);
             this.checkBox101.Name = "checkBox101";
             this.checkBox101.Size = new System.Drawing.Size(15, 14);
             this.checkBox101.TabIndex = 76;
@@ -1830,8 +1960,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox102
             // 
+            this.checkBox102.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox102.AutoSize = true;
-            this.checkBox102.Location = new System.Drawing.Point(200, 443);
+            this.checkBox102.Location = new System.Drawing.Point(209, 447);
             this.checkBox102.Name = "checkBox102";
             this.checkBox102.Size = new System.Drawing.Size(15, 14);
             this.checkBox102.TabIndex = 178;
@@ -1840,8 +1971,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox103
             // 
+            this.checkBox103.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox103.AutoSize = true;
-            this.checkBox103.Location = new System.Drawing.Point(200, 423);
+            this.checkBox103.Location = new System.Drawing.Point(209, 427);
             this.checkBox103.Name = "checkBox103";
             this.checkBox103.Size = new System.Drawing.Size(15, 14);
             this.checkBox103.TabIndex = 170;
@@ -1850,8 +1982,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox104
             // 
+            this.checkBox104.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox104.AutoSize = true;
-            this.checkBox104.Location = new System.Drawing.Point(200, 403);
+            this.checkBox104.Location = new System.Drawing.Point(209, 407);
             this.checkBox104.Name = "checkBox104";
             this.checkBox104.Size = new System.Drawing.Size(15, 14);
             this.checkBox104.TabIndex = 162;
@@ -1860,8 +1993,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox105
             // 
+            this.checkBox105.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox105.AutoSize = true;
-            this.checkBox105.Location = new System.Drawing.Point(200, 383);
+            this.checkBox105.Location = new System.Drawing.Point(209, 387);
             this.checkBox105.Name = "checkBox105";
             this.checkBox105.Size = new System.Drawing.Size(15, 14);
             this.checkBox105.TabIndex = 154;
@@ -1870,8 +2004,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox106
             // 
+            this.checkBox106.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox106.AutoSize = true;
-            this.checkBox106.Location = new System.Drawing.Point(200, 363);
+            this.checkBox106.Location = new System.Drawing.Point(209, 367);
             this.checkBox106.Name = "checkBox106";
             this.checkBox106.Size = new System.Drawing.Size(15, 14);
             this.checkBox106.TabIndex = 146;
@@ -1880,8 +2015,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox107
             // 
+            this.checkBox107.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox107.AutoSize = true;
-            this.checkBox107.Location = new System.Drawing.Point(200, 343);
+            this.checkBox107.Location = new System.Drawing.Point(209, 347);
             this.checkBox107.Name = "checkBox107";
             this.checkBox107.Size = new System.Drawing.Size(15, 14);
             this.checkBox107.TabIndex = 138;
@@ -1890,8 +2026,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox108
             // 
+            this.checkBox108.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox108.AutoSize = true;
-            this.checkBox108.Location = new System.Drawing.Point(200, 323);
+            this.checkBox108.Location = new System.Drawing.Point(209, 327);
             this.checkBox108.Name = "checkBox108";
             this.checkBox108.Size = new System.Drawing.Size(15, 14);
             this.checkBox108.TabIndex = 130;
@@ -1900,8 +2037,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox109
             // 
+            this.checkBox109.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox109.AutoSize = true;
-            this.checkBox109.Location = new System.Drawing.Point(200, 303);
+            this.checkBox109.Location = new System.Drawing.Point(209, 307);
             this.checkBox109.Name = "checkBox109";
             this.checkBox109.Size = new System.Drawing.Size(15, 14);
             this.checkBox109.TabIndex = 122;
@@ -1910,8 +2048,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox110
             // 
+            this.checkBox110.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox110.AutoSize = true;
-            this.checkBox110.Location = new System.Drawing.Point(200, 283);
+            this.checkBox110.Location = new System.Drawing.Point(209, 287);
             this.checkBox110.Name = "checkBox110";
             this.checkBox110.Size = new System.Drawing.Size(15, 14);
             this.checkBox110.TabIndex = 114;
@@ -1920,8 +2059,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox111
             // 
+            this.checkBox111.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox111.AutoSize = true;
-            this.checkBox111.Location = new System.Drawing.Point(200, 263);
+            this.checkBox111.Location = new System.Drawing.Point(209, 267);
             this.checkBox111.Name = "checkBox111";
             this.checkBox111.Size = new System.Drawing.Size(15, 14);
             this.checkBox111.TabIndex = 106;
@@ -1930,8 +2070,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox112
             // 
+            this.checkBox112.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox112.AutoSize = true;
-            this.checkBox112.Location = new System.Drawing.Point(200, 243);
+            this.checkBox112.Location = new System.Drawing.Point(209, 247);
             this.checkBox112.Name = "checkBox112";
             this.checkBox112.Size = new System.Drawing.Size(15, 14);
             this.checkBox112.TabIndex = 98;
@@ -1940,8 +2081,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox113
             // 
+            this.checkBox113.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox113.AutoSize = true;
-            this.checkBox113.Location = new System.Drawing.Point(200, 223);
+            this.checkBox113.Location = new System.Drawing.Point(209, 227);
             this.checkBox113.Name = "checkBox113";
             this.checkBox113.Size = new System.Drawing.Size(15, 14);
             this.checkBox113.TabIndex = 90;
@@ -1950,8 +2092,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox114
             // 
+            this.checkBox114.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox114.AutoSize = true;
-            this.checkBox114.Location = new System.Drawing.Point(200, 203);
+            this.checkBox114.Location = new System.Drawing.Point(209, 207);
             this.checkBox114.Name = "checkBox114";
             this.checkBox114.Size = new System.Drawing.Size(15, 14);
             this.checkBox114.TabIndex = 82;
@@ -1960,8 +2103,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox115
             // 
+            this.checkBox115.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox115.AutoSize = true;
-            this.checkBox115.Location = new System.Drawing.Point(240, 203);
+            this.checkBox115.Location = new System.Drawing.Point(249, 207);
             this.checkBox115.Name = "checkBox115";
             this.checkBox115.Size = new System.Drawing.Size(15, 14);
             this.checkBox115.TabIndex = 83;
@@ -1970,8 +2114,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox116
             // 
+            this.checkBox116.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox116.AutoSize = true;
-            this.checkBox116.Location = new System.Drawing.Point(320, 203);
+            this.checkBox116.Location = new System.Drawing.Point(329, 207);
             this.checkBox116.Name = "checkBox116";
             this.checkBox116.Size = new System.Drawing.Size(15, 14);
             this.checkBox116.TabIndex = 84;
@@ -1980,8 +2125,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox117
             // 
+            this.checkBox117.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox117.AutoSize = true;
-            this.checkBox117.Location = new System.Drawing.Point(360, 183);
+            this.checkBox117.Location = new System.Drawing.Point(369, 187);
             this.checkBox117.Name = "checkBox117";
             this.checkBox117.Size = new System.Drawing.Size(15, 14);
             this.checkBox117.TabIndex = 77;
@@ -1990,8 +2136,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox118
             // 
+            this.checkBox118.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox118.AutoSize = true;
-            this.checkBox118.Location = new System.Drawing.Point(360, 203);
+            this.checkBox118.Location = new System.Drawing.Point(369, 207);
             this.checkBox118.Name = "checkBox118";
             this.checkBox118.Size = new System.Drawing.Size(15, 14);
             this.checkBox118.TabIndex = 85;
@@ -2000,8 +2147,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox119
             // 
+            this.checkBox119.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox119.AutoSize = true;
-            this.checkBox119.Location = new System.Drawing.Point(360, 223);
+            this.checkBox119.Location = new System.Drawing.Point(369, 227);
             this.checkBox119.Name = "checkBox119";
             this.checkBox119.Size = new System.Drawing.Size(15, 14);
             this.checkBox119.TabIndex = 93;
@@ -2010,8 +2158,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox120
             // 
+            this.checkBox120.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox120.AutoSize = true;
-            this.checkBox120.Location = new System.Drawing.Point(320, 223);
+            this.checkBox120.Location = new System.Drawing.Point(329, 227);
             this.checkBox120.Name = "checkBox120";
             this.checkBox120.Size = new System.Drawing.Size(15, 14);
             this.checkBox120.TabIndex = 92;
@@ -2020,8 +2169,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox121
             // 
+            this.checkBox121.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox121.AutoSize = true;
-            this.checkBox121.Location = new System.Drawing.Point(240, 223);
+            this.checkBox121.Location = new System.Drawing.Point(249, 227);
             this.checkBox121.Name = "checkBox121";
             this.checkBox121.Size = new System.Drawing.Size(15, 14);
             this.checkBox121.TabIndex = 91;
@@ -2030,8 +2180,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox122
             // 
+            this.checkBox122.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox122.AutoSize = true;
-            this.checkBox122.Location = new System.Drawing.Point(240, 243);
+            this.checkBox122.Location = new System.Drawing.Point(249, 247);
             this.checkBox122.Name = "checkBox122";
             this.checkBox122.Size = new System.Drawing.Size(15, 14);
             this.checkBox122.TabIndex = 99;
@@ -2040,8 +2191,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox123
             // 
+            this.checkBox123.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox123.AutoSize = true;
-            this.checkBox123.Location = new System.Drawing.Point(240, 263);
+            this.checkBox123.Location = new System.Drawing.Point(249, 267);
             this.checkBox123.Name = "checkBox123";
             this.checkBox123.Size = new System.Drawing.Size(15, 14);
             this.checkBox123.TabIndex = 107;
@@ -2050,8 +2202,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox124
             // 
+            this.checkBox124.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox124.AutoSize = true;
-            this.checkBox124.Location = new System.Drawing.Point(240, 283);
+            this.checkBox124.Location = new System.Drawing.Point(249, 287);
             this.checkBox124.Name = "checkBox124";
             this.checkBox124.Size = new System.Drawing.Size(15, 14);
             this.checkBox124.TabIndex = 115;
@@ -2060,8 +2213,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox125
             // 
+            this.checkBox125.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox125.AutoSize = true;
-            this.checkBox125.Location = new System.Drawing.Point(240, 303);
+            this.checkBox125.Location = new System.Drawing.Point(249, 307);
             this.checkBox125.Name = "checkBox125";
             this.checkBox125.Size = new System.Drawing.Size(15, 14);
             this.checkBox125.TabIndex = 123;
@@ -2070,8 +2224,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox126
             // 
+            this.checkBox126.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox126.AutoSize = true;
-            this.checkBox126.Location = new System.Drawing.Point(240, 323);
+            this.checkBox126.Location = new System.Drawing.Point(249, 327);
             this.checkBox126.Name = "checkBox126";
             this.checkBox126.Size = new System.Drawing.Size(15, 14);
             this.checkBox126.TabIndex = 131;
@@ -2080,8 +2235,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox127
             // 
+            this.checkBox127.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox127.AutoSize = true;
-            this.checkBox127.Location = new System.Drawing.Point(240, 343);
+            this.checkBox127.Location = new System.Drawing.Point(249, 347);
             this.checkBox127.Name = "checkBox127";
             this.checkBox127.Size = new System.Drawing.Size(15, 14);
             this.checkBox127.TabIndex = 139;
@@ -2090,8 +2246,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox128
             // 
+            this.checkBox128.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox128.AutoSize = true;
-            this.checkBox128.Location = new System.Drawing.Point(240, 363);
+            this.checkBox128.Location = new System.Drawing.Point(249, 367);
             this.checkBox128.Name = "checkBox128";
             this.checkBox128.Size = new System.Drawing.Size(15, 14);
             this.checkBox128.TabIndex = 147;
@@ -2100,8 +2257,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox129
             // 
+            this.checkBox129.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox129.AutoSize = true;
-            this.checkBox129.Location = new System.Drawing.Point(240, 383);
+            this.checkBox129.Location = new System.Drawing.Point(249, 387);
             this.checkBox129.Name = "checkBox129";
             this.checkBox129.Size = new System.Drawing.Size(15, 14);
             this.checkBox129.TabIndex = 155;
@@ -2110,8 +2268,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox130
             // 
+            this.checkBox130.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox130.AutoSize = true;
-            this.checkBox130.Location = new System.Drawing.Point(240, 403);
+            this.checkBox130.Location = new System.Drawing.Point(249, 407);
             this.checkBox130.Name = "checkBox130";
             this.checkBox130.Size = new System.Drawing.Size(15, 14);
             this.checkBox130.TabIndex = 163;
@@ -2120,8 +2279,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox131
             // 
+            this.checkBox131.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox131.AutoSize = true;
-            this.checkBox131.Location = new System.Drawing.Point(240, 423);
+            this.checkBox131.Location = new System.Drawing.Point(249, 427);
             this.checkBox131.Name = "checkBox131";
             this.checkBox131.Size = new System.Drawing.Size(15, 14);
             this.checkBox131.TabIndex = 171;
@@ -2130,8 +2290,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox132
             // 
+            this.checkBox132.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox132.AutoSize = true;
-            this.checkBox132.Location = new System.Drawing.Point(240, 443);
+            this.checkBox132.Location = new System.Drawing.Point(249, 447);
             this.checkBox132.Name = "checkBox132";
             this.checkBox132.Size = new System.Drawing.Size(15, 14);
             this.checkBox132.TabIndex = 179;
@@ -2140,8 +2301,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox133
             // 
+            this.checkBox133.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox133.AutoSize = true;
-            this.checkBox133.Location = new System.Drawing.Point(320, 443);
+            this.checkBox133.Location = new System.Drawing.Point(329, 447);
             this.checkBox133.Name = "checkBox133";
             this.checkBox133.Size = new System.Drawing.Size(15, 14);
             this.checkBox133.TabIndex = 180;
@@ -2150,8 +2312,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox134
             // 
+            this.checkBox134.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox134.AutoSize = true;
-            this.checkBox134.Location = new System.Drawing.Point(320, 423);
+            this.checkBox134.Location = new System.Drawing.Point(329, 427);
             this.checkBox134.Name = "checkBox134";
             this.checkBox134.Size = new System.Drawing.Size(15, 14);
             this.checkBox134.TabIndex = 172;
@@ -2160,8 +2323,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox135
             // 
+            this.checkBox135.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox135.AutoSize = true;
-            this.checkBox135.Location = new System.Drawing.Point(320, 403);
+            this.checkBox135.Location = new System.Drawing.Point(329, 407);
             this.checkBox135.Name = "checkBox135";
             this.checkBox135.Size = new System.Drawing.Size(15, 14);
             this.checkBox135.TabIndex = 164;
@@ -2170,8 +2334,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox136
             // 
+            this.checkBox136.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox136.AutoSize = true;
-            this.checkBox136.Location = new System.Drawing.Point(320, 383);
+            this.checkBox136.Location = new System.Drawing.Point(329, 387);
             this.checkBox136.Name = "checkBox136";
             this.checkBox136.Size = new System.Drawing.Size(15, 14);
             this.checkBox136.TabIndex = 156;
@@ -2180,8 +2345,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox137
             // 
+            this.checkBox137.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox137.AutoSize = true;
-            this.checkBox137.Location = new System.Drawing.Point(320, 363);
+            this.checkBox137.Location = new System.Drawing.Point(329, 367);
             this.checkBox137.Name = "checkBox137";
             this.checkBox137.Size = new System.Drawing.Size(15, 14);
             this.checkBox137.TabIndex = 148;
@@ -2190,8 +2356,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox138
             // 
+            this.checkBox138.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox138.AutoSize = true;
-            this.checkBox138.Location = new System.Drawing.Point(320, 343);
+            this.checkBox138.Location = new System.Drawing.Point(329, 347);
             this.checkBox138.Name = "checkBox138";
             this.checkBox138.Size = new System.Drawing.Size(15, 14);
             this.checkBox138.TabIndex = 140;
@@ -2200,8 +2367,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox139
             // 
+            this.checkBox139.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox139.AutoSize = true;
-            this.checkBox139.Location = new System.Drawing.Point(320, 323);
+            this.checkBox139.Location = new System.Drawing.Point(329, 327);
             this.checkBox139.Name = "checkBox139";
             this.checkBox139.Size = new System.Drawing.Size(15, 14);
             this.checkBox139.TabIndex = 132;
@@ -2210,8 +2378,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox140
             // 
+            this.checkBox140.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox140.AutoSize = true;
-            this.checkBox140.Location = new System.Drawing.Point(320, 303);
+            this.checkBox140.Location = new System.Drawing.Point(329, 307);
             this.checkBox140.Name = "checkBox140";
             this.checkBox140.Size = new System.Drawing.Size(15, 14);
             this.checkBox140.TabIndex = 124;
@@ -2220,8 +2389,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox141
             // 
+            this.checkBox141.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox141.AutoSize = true;
-            this.checkBox141.Location = new System.Drawing.Point(320, 283);
+            this.checkBox141.Location = new System.Drawing.Point(329, 287);
             this.checkBox141.Name = "checkBox141";
             this.checkBox141.Size = new System.Drawing.Size(15, 14);
             this.checkBox141.TabIndex = 116;
@@ -2230,8 +2400,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox142
             // 
+            this.checkBox142.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox142.AutoSize = true;
-            this.checkBox142.Location = new System.Drawing.Point(320, 263);
+            this.checkBox142.Location = new System.Drawing.Point(329, 267);
             this.checkBox142.Name = "checkBox142";
             this.checkBox142.Size = new System.Drawing.Size(15, 14);
             this.checkBox142.TabIndex = 108;
@@ -2240,8 +2411,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox143
             // 
+            this.checkBox143.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox143.AutoSize = true;
-            this.checkBox143.Location = new System.Drawing.Point(320, 243);
+            this.checkBox143.Location = new System.Drawing.Point(329, 247);
             this.checkBox143.Name = "checkBox143";
             this.checkBox143.Size = new System.Drawing.Size(15, 14);
             this.checkBox143.TabIndex = 100;
@@ -2250,8 +2422,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox144
             // 
+            this.checkBox144.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox144.AutoSize = true;
-            this.checkBox144.Location = new System.Drawing.Point(360, 243);
+            this.checkBox144.Location = new System.Drawing.Point(369, 247);
             this.checkBox144.Name = "checkBox144";
             this.checkBox144.Size = new System.Drawing.Size(15, 14);
             this.checkBox144.TabIndex = 101;
@@ -2260,8 +2433,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox145
             // 
+            this.checkBox145.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox145.AutoSize = true;
-            this.checkBox145.Location = new System.Drawing.Point(360, 263);
+            this.checkBox145.Location = new System.Drawing.Point(369, 267);
             this.checkBox145.Name = "checkBox145";
             this.checkBox145.Size = new System.Drawing.Size(15, 14);
             this.checkBox145.TabIndex = 109;
@@ -2270,8 +2444,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox146
             // 
+            this.checkBox146.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox146.AutoSize = true;
-            this.checkBox146.Location = new System.Drawing.Point(360, 283);
+            this.checkBox146.Location = new System.Drawing.Point(369, 287);
             this.checkBox146.Name = "checkBox146";
             this.checkBox146.Size = new System.Drawing.Size(15, 14);
             this.checkBox146.TabIndex = 117;
@@ -2280,8 +2455,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox147
             // 
+            this.checkBox147.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox147.AutoSize = true;
-            this.checkBox147.Location = new System.Drawing.Point(360, 303);
+            this.checkBox147.Location = new System.Drawing.Point(369, 307);
             this.checkBox147.Name = "checkBox147";
             this.checkBox147.Size = new System.Drawing.Size(15, 14);
             this.checkBox147.TabIndex = 125;
@@ -2290,8 +2466,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox148
             // 
+            this.checkBox148.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox148.AutoSize = true;
-            this.checkBox148.Location = new System.Drawing.Point(360, 323);
+            this.checkBox148.Location = new System.Drawing.Point(369, 327);
             this.checkBox148.Name = "checkBox148";
             this.checkBox148.Size = new System.Drawing.Size(15, 14);
             this.checkBox148.TabIndex = 133;
@@ -2300,8 +2477,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox149
             // 
+            this.checkBox149.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox149.AutoSize = true;
-            this.checkBox149.Location = new System.Drawing.Point(360, 343);
+            this.checkBox149.Location = new System.Drawing.Point(369, 347);
             this.checkBox149.Name = "checkBox149";
             this.checkBox149.Size = new System.Drawing.Size(15, 14);
             this.checkBox149.TabIndex = 141;
@@ -2310,8 +2488,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox150
             // 
+            this.checkBox150.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox150.AutoSize = true;
-            this.checkBox150.Location = new System.Drawing.Point(360, 363);
+            this.checkBox150.Location = new System.Drawing.Point(369, 367);
             this.checkBox150.Name = "checkBox150";
             this.checkBox150.Size = new System.Drawing.Size(15, 14);
             this.checkBox150.TabIndex = 149;
@@ -2320,8 +2499,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox151
             // 
+            this.checkBox151.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox151.AutoSize = true;
-            this.checkBox151.Location = new System.Drawing.Point(360, 383);
+            this.checkBox151.Location = new System.Drawing.Point(369, 387);
             this.checkBox151.Name = "checkBox151";
             this.checkBox151.Size = new System.Drawing.Size(15, 14);
             this.checkBox151.TabIndex = 157;
@@ -2330,8 +2510,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox152
             // 
+            this.checkBox152.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox152.AutoSize = true;
-            this.checkBox152.Location = new System.Drawing.Point(360, 403);
+            this.checkBox152.Location = new System.Drawing.Point(369, 407);
             this.checkBox152.Name = "checkBox152";
             this.checkBox152.Size = new System.Drawing.Size(15, 14);
             this.checkBox152.TabIndex = 165;
@@ -2340,8 +2521,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox153
             // 
+            this.checkBox153.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox153.AutoSize = true;
-            this.checkBox153.Location = new System.Drawing.Point(360, 423);
+            this.checkBox153.Location = new System.Drawing.Point(369, 427);
             this.checkBox153.Name = "checkBox153";
             this.checkBox153.Size = new System.Drawing.Size(15, 14);
             this.checkBox153.TabIndex = 173;
@@ -2350,8 +2532,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox154
             // 
+            this.checkBox154.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox154.AutoSize = true;
-            this.checkBox154.Location = new System.Drawing.Point(360, 443);
+            this.checkBox154.Location = new System.Drawing.Point(369, 447);
             this.checkBox154.Name = "checkBox154";
             this.checkBox154.Size = new System.Drawing.Size(15, 14);
             this.checkBox154.TabIndex = 181;
@@ -2361,17 +2544,19 @@ namespace Zanac.XBOX2Classic
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Location = new System.Drawing.Point(280, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 12);
+            this.label4.Size = new System.Drawing.Size(34, 24);
             this.label4.TabIndex = 4;
             this.label4.Text = "DSR";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox155
             // 
+            this.checkBox155.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox155.AutoSize = true;
-            this.checkBox155.Location = new System.Drawing.Point(280, 23);
+            this.checkBox155.Location = new System.Drawing.Point(289, 27);
             this.checkBox155.Name = "checkBox155";
             this.checkBox155.Size = new System.Drawing.Size(15, 14);
             this.checkBox155.TabIndex = 12;
@@ -2380,8 +2565,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox156
             // 
+            this.checkBox156.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox156.AutoSize = true;
-            this.checkBox156.Location = new System.Drawing.Point(280, 43);
+            this.checkBox156.Location = new System.Drawing.Point(289, 47);
             this.checkBox156.Name = "checkBox156";
             this.checkBox156.Size = new System.Drawing.Size(15, 14);
             this.checkBox156.TabIndex = 12;
@@ -2390,8 +2576,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox157
             // 
+            this.checkBox157.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox157.AutoSize = true;
-            this.checkBox157.Location = new System.Drawing.Point(280, 63);
+            this.checkBox157.Location = new System.Drawing.Point(289, 67);
             this.checkBox157.Name = "checkBox157";
             this.checkBox157.Size = new System.Drawing.Size(15, 14);
             this.checkBox157.TabIndex = 12;
@@ -2400,8 +2587,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox158
             // 
+            this.checkBox158.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox158.AutoSize = true;
-            this.checkBox158.Location = new System.Drawing.Point(280, 83);
+            this.checkBox158.Location = new System.Drawing.Point(289, 87);
             this.checkBox158.Name = "checkBox158";
             this.checkBox158.Size = new System.Drawing.Size(15, 14);
             this.checkBox158.TabIndex = 12;
@@ -2410,8 +2598,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox159
             // 
+            this.checkBox159.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox159.AutoSize = true;
-            this.checkBox159.Location = new System.Drawing.Point(280, 103);
+            this.checkBox159.Location = new System.Drawing.Point(289, 107);
             this.checkBox159.Name = "checkBox159";
             this.checkBox159.Size = new System.Drawing.Size(15, 14);
             this.checkBox159.TabIndex = 12;
@@ -2420,8 +2609,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox160
             // 
+            this.checkBox160.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox160.AutoSize = true;
-            this.checkBox160.Location = new System.Drawing.Point(280, 123);
+            this.checkBox160.Location = new System.Drawing.Point(289, 127);
             this.checkBox160.Name = "checkBox160";
             this.checkBox160.Size = new System.Drawing.Size(15, 14);
             this.checkBox160.TabIndex = 12;
@@ -2430,8 +2620,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox161
             // 
+            this.checkBox161.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox161.AutoSize = true;
-            this.checkBox161.Location = new System.Drawing.Point(280, 143);
+            this.checkBox161.Location = new System.Drawing.Point(289, 147);
             this.checkBox161.Name = "checkBox161";
             this.checkBox161.Size = new System.Drawing.Size(15, 14);
             this.checkBox161.TabIndex = 12;
@@ -2440,8 +2631,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox162
             // 
+            this.checkBox162.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox162.AutoSize = true;
-            this.checkBox162.Location = new System.Drawing.Point(280, 163);
+            this.checkBox162.Location = new System.Drawing.Point(289, 167);
             this.checkBox162.Name = "checkBox162";
             this.checkBox162.Size = new System.Drawing.Size(15, 14);
             this.checkBox162.TabIndex = 12;
@@ -2450,8 +2642,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox163
             // 
+            this.checkBox163.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox163.AutoSize = true;
-            this.checkBox163.Location = new System.Drawing.Point(280, 183);
+            this.checkBox163.Location = new System.Drawing.Point(289, 187);
             this.checkBox163.Name = "checkBox163";
             this.checkBox163.Size = new System.Drawing.Size(15, 14);
             this.checkBox163.TabIndex = 12;
@@ -2460,8 +2653,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox164
             // 
+            this.checkBox164.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox164.AutoSize = true;
-            this.checkBox164.Location = new System.Drawing.Point(280, 203);
+            this.checkBox164.Location = new System.Drawing.Point(289, 207);
             this.checkBox164.Name = "checkBox164";
             this.checkBox164.Size = new System.Drawing.Size(15, 14);
             this.checkBox164.TabIndex = 12;
@@ -2470,8 +2664,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox165
             // 
+            this.checkBox165.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox165.AutoSize = true;
-            this.checkBox165.Location = new System.Drawing.Point(280, 223);
+            this.checkBox165.Location = new System.Drawing.Point(289, 227);
             this.checkBox165.Name = "checkBox165";
             this.checkBox165.Size = new System.Drawing.Size(15, 14);
             this.checkBox165.TabIndex = 12;
@@ -2480,8 +2675,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox166
             // 
+            this.checkBox166.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox166.AutoSize = true;
-            this.checkBox166.Location = new System.Drawing.Point(280, 243);
+            this.checkBox166.Location = new System.Drawing.Point(289, 247);
             this.checkBox166.Name = "checkBox166";
             this.checkBox166.Size = new System.Drawing.Size(15, 14);
             this.checkBox166.TabIndex = 12;
@@ -2490,8 +2686,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox167
             // 
+            this.checkBox167.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox167.AutoSize = true;
-            this.checkBox167.Location = new System.Drawing.Point(280, 263);
+            this.checkBox167.Location = new System.Drawing.Point(289, 267);
             this.checkBox167.Name = "checkBox167";
             this.checkBox167.Size = new System.Drawing.Size(15, 14);
             this.checkBox167.TabIndex = 12;
@@ -2500,8 +2697,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox168
             // 
+            this.checkBox168.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox168.AutoSize = true;
-            this.checkBox168.Location = new System.Drawing.Point(280, 283);
+            this.checkBox168.Location = new System.Drawing.Point(289, 287);
             this.checkBox168.Name = "checkBox168";
             this.checkBox168.Size = new System.Drawing.Size(15, 14);
             this.checkBox168.TabIndex = 12;
@@ -2510,8 +2708,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox169
             // 
+            this.checkBox169.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox169.AutoSize = true;
-            this.checkBox169.Location = new System.Drawing.Point(280, 303);
+            this.checkBox169.Location = new System.Drawing.Point(289, 307);
             this.checkBox169.Name = "checkBox169";
             this.checkBox169.Size = new System.Drawing.Size(15, 14);
             this.checkBox169.TabIndex = 12;
@@ -2520,8 +2719,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox170
             // 
+            this.checkBox170.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox170.AutoSize = true;
-            this.checkBox170.Location = new System.Drawing.Point(280, 323);
+            this.checkBox170.Location = new System.Drawing.Point(289, 327);
             this.checkBox170.Name = "checkBox170";
             this.checkBox170.Size = new System.Drawing.Size(15, 14);
             this.checkBox170.TabIndex = 12;
@@ -2530,8 +2730,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox171
             // 
+            this.checkBox171.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox171.AutoSize = true;
-            this.checkBox171.Location = new System.Drawing.Point(280, 343);
+            this.checkBox171.Location = new System.Drawing.Point(289, 347);
             this.checkBox171.Name = "checkBox171";
             this.checkBox171.Size = new System.Drawing.Size(15, 14);
             this.checkBox171.TabIndex = 12;
@@ -2540,8 +2741,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox172
             // 
+            this.checkBox172.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox172.AutoSize = true;
-            this.checkBox172.Location = new System.Drawing.Point(280, 363);
+            this.checkBox172.Location = new System.Drawing.Point(289, 367);
             this.checkBox172.Name = "checkBox172";
             this.checkBox172.Size = new System.Drawing.Size(15, 14);
             this.checkBox172.TabIndex = 12;
@@ -2550,8 +2752,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox173
             // 
+            this.checkBox173.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox173.AutoSize = true;
-            this.checkBox173.Location = new System.Drawing.Point(280, 383);
+            this.checkBox173.Location = new System.Drawing.Point(289, 387);
             this.checkBox173.Name = "checkBox173";
             this.checkBox173.Size = new System.Drawing.Size(15, 14);
             this.checkBox173.TabIndex = 12;
@@ -2560,8 +2763,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox174
             // 
+            this.checkBox174.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox174.AutoSize = true;
-            this.checkBox174.Location = new System.Drawing.Point(280, 403);
+            this.checkBox174.Location = new System.Drawing.Point(289, 407);
             this.checkBox174.Name = "checkBox174";
             this.checkBox174.Size = new System.Drawing.Size(15, 14);
             this.checkBox174.TabIndex = 12;
@@ -2570,8 +2774,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox175
             // 
+            this.checkBox175.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox175.AutoSize = true;
-            this.checkBox175.Location = new System.Drawing.Point(280, 423);
+            this.checkBox175.Location = new System.Drawing.Point(289, 427);
             this.checkBox175.Name = "checkBox175";
             this.checkBox175.Size = new System.Drawing.Size(15, 14);
             this.checkBox175.TabIndex = 12;
@@ -2580,8 +2785,9 @@ namespace Zanac.XBOX2Classic
             // 
             // checkBox176
             // 
+            this.checkBox176.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox176.AutoSize = true;
-            this.checkBox176.Location = new System.Drawing.Point(280, 443);
+            this.checkBox176.Location = new System.Drawing.Point(289, 447);
             this.checkBox176.Name = "checkBox176";
             this.checkBox176.Size = new System.Drawing.Size(15, 14);
             this.checkBox176.TabIndex = 12;
@@ -2614,7 +2820,7 @@ namespace Zanac.XBOX2Classic
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 245F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 258F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanelCheck, 0, 1);
@@ -2635,7 +2841,7 @@ namespace Zanac.XBOX2Classic
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(424, 603);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(501, 603);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // checkBoxConn
@@ -2674,12 +2880,143 @@ namespace Zanac.XBOX2Classic
             // timerRapid
             // 
             this.timerRapid.Enabled = true;
-            this.timerRapid.Tick += new System.EventHandler(this.timerController_Tick);
+            this.timerRapid.Tick += new System.EventHandler(this.timerRapid_Tick);
             // 
             // timerPole
             // 
             this.timerPole.Enabled = true;
+            this.timerPole.Interval = 16;
             this.timerPole.Tick += new System.EventHandler(this.timerController_Tick);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(400, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 24);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Pseudo\r\nAnalog";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // checkBox177
+            // 
+            this.checkBox177.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox177.AutoSize = true;
+            this.checkBox177.Checked = global::XBOX2Classic.Properties.Settings.Default.PAL1;
+            this.checkBox177.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAL1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox177.Location = new System.Drawing.Point(418, 107);
+            this.checkBox177.Name = "checkBox177";
+            this.checkBox177.Size = new System.Drawing.Size(15, 14);
+            this.checkBox177.TabIndex = 14;
+            this.checkBox177.UseVisualStyleBackColor = true;
+            // 
+            // checkBox178
+            // 
+            this.checkBox178.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox178.AutoSize = true;
+            this.checkBox178.Checked = global::XBOX2Classic.Properties.Settings.Default.PAL2;
+            this.checkBox178.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAL2", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox178.Location = new System.Drawing.Point(418, 127);
+            this.checkBox178.Name = "checkBox178";
+            this.checkBox178.Size = new System.Drawing.Size(15, 14);
+            this.checkBox178.TabIndex = 14;
+            this.checkBox178.UseVisualStyleBackColor = true;
+            // 
+            // checkBox179
+            // 
+            this.checkBox179.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox179.AutoSize = true;
+            this.checkBox179.Checked = global::XBOX2Classic.Properties.Settings.Default.PAL3;
+            this.checkBox179.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAL3", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox179.Location = new System.Drawing.Point(418, 147);
+            this.checkBox179.Name = "checkBox179";
+            this.checkBox179.Size = new System.Drawing.Size(15, 14);
+            this.checkBox179.TabIndex = 14;
+            this.checkBox179.UseVisualStyleBackColor = true;
+            // 
+            // checkBox180
+            // 
+            this.checkBox180.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox180.AutoSize = true;
+            this.checkBox180.Checked = global::XBOX2Classic.Properties.Settings.Default.PAL4;
+            this.checkBox180.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAL4", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox180.Location = new System.Drawing.Point(418, 167);
+            this.checkBox180.Name = "checkBox180";
+            this.checkBox180.Size = new System.Drawing.Size(15, 14);
+            this.checkBox180.TabIndex = 14;
+            this.checkBox180.UseVisualStyleBackColor = true;
+            // 
+            // checkBox181
+            // 
+            this.checkBox181.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox181.AutoSize = true;
+            this.checkBox181.Checked = global::XBOX2Classic.Properties.Settings.Default.PAR1;
+            this.checkBox181.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAR1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox181.Location = new System.Drawing.Point(418, 187);
+            this.checkBox181.Name = "checkBox181";
+            this.checkBox181.Size = new System.Drawing.Size(15, 14);
+            this.checkBox181.TabIndex = 14;
+            this.checkBox181.UseVisualStyleBackColor = true;
+            // 
+            // checkBox182
+            // 
+            this.checkBox182.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox182.AutoSize = true;
+            this.checkBox182.Checked = global::XBOX2Classic.Properties.Settings.Default.PAR2;
+            this.checkBox182.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAR2", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox182.Location = new System.Drawing.Point(418, 207);
+            this.checkBox182.Name = "checkBox182";
+            this.checkBox182.Size = new System.Drawing.Size(15, 14);
+            this.checkBox182.TabIndex = 14;
+            this.checkBox182.UseVisualStyleBackColor = true;
+            // 
+            // checkBox183
+            // 
+            this.checkBox183.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox183.AutoSize = true;
+            this.checkBox183.Checked = global::XBOX2Classic.Properties.Settings.Default.PAR3;
+            this.checkBox183.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAR3", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox183.Location = new System.Drawing.Point(418, 227);
+            this.checkBox183.Name = "checkBox183";
+            this.checkBox183.Size = new System.Drawing.Size(15, 14);
+            this.checkBox183.TabIndex = 14;
+            this.checkBox183.UseVisualStyleBackColor = true;
+            // 
+            // checkBox184
+            // 
+            this.checkBox184.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox184.AutoSize = true;
+            this.checkBox184.Checked = global::XBOX2Classic.Properties.Settings.Default.PAR4;
+            this.checkBox184.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PAR4", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox184.Location = new System.Drawing.Point(418, 247);
+            this.checkBox184.Name = "checkBox184";
+            this.checkBox184.Size = new System.Drawing.Size(15, 14);
+            this.checkBox184.TabIndex = 14;
+            this.checkBox184.UseVisualStyleBackColor = true;
+            // 
+            // checkBox185
+            // 
+            this.checkBox185.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox185.AutoSize = true;
+            this.checkBox185.Checked = global::XBOX2Classic.Properties.Settings.Default.PALT;
+            this.checkBox185.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PALT", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox185.Location = new System.Drawing.Point(418, 347);
+            this.checkBox185.Name = "checkBox185";
+            this.checkBox185.Size = new System.Drawing.Size(15, 14);
+            this.checkBox185.TabIndex = 14;
+            this.checkBox185.UseVisualStyleBackColor = true;
+            // 
+            // checkBox186
+            // 
+            this.checkBox186.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox186.AutoSize = true;
+            this.checkBox186.Checked = global::XBOX2Classic.Properties.Settings.Default.PART;
+            this.checkBox186.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::XBOX2Classic.Properties.Settings.Default, "PART", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBox186.Location = new System.Drawing.Point(418, 387);
+            this.checkBox186.Name = "checkBox186";
+            this.checkBox186.Size = new System.Drawing.Size(15, 14);
+            this.checkBox186.TabIndex = 14;
+            this.checkBox186.UseVisualStyleBackColor = true;
             // 
             // numericUpDownPort
             // 
@@ -2741,10 +3078,10 @@ namespace Zanac.XBOX2Classic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 633);
+            this.ClientSize = new System.Drawing.Size(536, 632);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Name = "FormMain";
-            this.Text = "XBOX2Classic";
+            this.Text = "XBOX2Classic V2.0";
             this.tableLayoutPanelCheck.ResumeLayout(false);
             this.tableLayoutPanelCheck.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -2977,6 +3314,17 @@ namespace Zanac.XBOX2Classic
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown numericUpDownFireRate;
         private System.Windows.Forms.Timer timerPole;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox checkBox177;
+        private System.Windows.Forms.CheckBox checkBox178;
+        private System.Windows.Forms.CheckBox checkBox179;
+        private System.Windows.Forms.CheckBox checkBox180;
+        private System.Windows.Forms.CheckBox checkBox181;
+        private System.Windows.Forms.CheckBox checkBox182;
+        private System.Windows.Forms.CheckBox checkBox183;
+        private System.Windows.Forms.CheckBox checkBox184;
+        private System.Windows.Forms.CheckBox checkBox185;
+        private System.Windows.Forms.CheckBox checkBox186;
     }
 }
 

@@ -334,5 +334,125 @@ namespace XBOX2Classic.Properties {
                 this["FireRate"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAL1 {
+            get {
+                return ((bool)(this["PAL1"]));
+            }
+            set {
+                this["PAL1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAL2 {
+            get {
+                return ((bool)(this["PAL2"]));
+            }
+            set {
+                this["PAL2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAL3 {
+            get {
+                return ((bool)(this["PAL3"]));
+            }
+            set {
+                this["PAL3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAL4 {
+            get {
+                return ((bool)(this["PAL4"]));
+            }
+            set {
+                this["PAL4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAR1 {
+            get {
+                return ((bool)(this["PAR1"]));
+            }
+            set {
+                this["PAR1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAR2 {
+            get {
+                return ((bool)(this["PAR2"]));
+            }
+            set {
+                this["PAR2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAR3 {
+            get {
+                return ((bool)(this["PAR3"]));
+            }
+            set {
+                this["PAR3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PAR4 {
+            get {
+                return ((bool)(this["PAR4"]));
+            }
+            set {
+                this["PAR4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PALT {
+            get {
+                return ((bool)(this["PALT"]));
+            }
+            set {
+                this["PALT"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PART {
+            get {
+                return ((bool)(this["PART"]));
+            }
+            set {
+                this["PART"] = value;
+            }
+        }
     }
 }
