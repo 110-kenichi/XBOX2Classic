@@ -55,13 +55,8 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="GamePad.cs" />
-    <Compile Include="NativeMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils.cs" />
-    <Compile Include="VkKeys.cs" />
-    <Compile Include="VkVkKeysConverter.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FTD2XX_NET.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XBOX2ClassicLib\XBOX2ClassicLib.csproj">
+      <Project>{3301ed08-04c7-4e6d-94cd-84a2d11f1555}</Project>
+      <Name>XBOX2ClassicLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

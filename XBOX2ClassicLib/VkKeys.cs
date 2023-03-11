@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
-using System.Drawing.Design;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
 
 namespace Zanac.XBOX2Classic
 {

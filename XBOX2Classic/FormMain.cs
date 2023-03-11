@@ -192,7 +192,12 @@ namespace Zanac.XBOX2Classic
 
         private void timerController_Tick(object sender, EventArgs e)
         {
-            var stat = GamePad.GetState((PlayerIndex)((int)numericUpDownCtrlId.Value));
+            GamePadState stat;
+            if(Settings.Default.DInput)
+                stat = GamePad.GetStateX();
+            else
+                stat = GamePad.GetState((PlayerIndex)((int)numericUpDownCtrlId.Value));
+
             //if (stat.PacketNumber != lastGamePadState.PacketNumber)
             //{
             //cnt = 0;
