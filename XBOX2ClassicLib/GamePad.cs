@@ -265,7 +265,7 @@ namespace XInputDotNetPure
                 return state;
             }
             // ゲームパッドのデータ取得
-            var jState = joystick.GetCurrentState();
+            var jState = joystick?.GetCurrentState();
             // 取得できない場合
             if (jState == null)
             {
